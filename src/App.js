@@ -5,6 +5,7 @@ function App() {
     { name: "Randy Cox", id: 1 },
     { name: "Cody Thaller", id: 2 },
     { name: "Michelle Hoelzer", id: 3 },
+    { name: "Kyle Negley", id: 4 },
   ];
 
   const userNames = users.map(({ name, id }) => <li key={id}>{name}</li>);
